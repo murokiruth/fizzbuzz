@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>FizzBuzz</title>
+        <script src="fizzbuzz.js"></script>
+        <link rel="stylesheet" type="text/css" href="fizzbuzz.css" >
+    </head>
+    <body>
+        <div class="responsive">
+            <div class="page-style">
+                <h1>FizzBuzz Coding Challenge</h1>
+                <p>This program prints the numbers 1 to 100.<br>
+                for multiples of 3 print "Fizz"<br>
+                for multiples of 5 print "Buzz"<br>
+                for multiples of both 3 and 5 print "FizzBuzz"</p>
+            </div>
+            <div class="page-style">
+                <label><span>Enter a number:</span><input id="fizzValue" type="number" value="3" name="fizz"></label>
+                <label><span>Enter another number:</span><input id="buzzValue" type="number" value="5" name="buzz"></label>
+                <label><span><input type="submit" value="Buzz It" onclick="buzzIt()"></span></label> <br>
+                <label><span>Results:</span></label>
+                <p id="results"></p>
+            </div>
+        </div>
+    </body>
+</html>
